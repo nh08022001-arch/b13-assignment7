@@ -9,15 +9,27 @@ import {
 
 import Home from './Home'
 import Timeline from './Timeline'
+import Stats from './Stats'
+import Mainlayout from './layout/Mainlayout'
 
 const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />,
-  },
-  {
-    path: '/timeline',
-    element: <Timeline />,
+{
+  path: '/',
+  element: <Mainlayout />,
+  children: [
+   {
+   index: true,
+        element: <Home />,
+      },
+      {
+        path: 'timeline',
+        element: <Timeline />,
+     },
+     {
+       path: 'stats',
+        element: <Stats />,
+     },
+    ],
   },
 ])
 

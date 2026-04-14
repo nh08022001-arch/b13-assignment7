@@ -3,7 +3,8 @@ import React from 'react';
 const Timeline = () => {
     return (
         <div>
-            timelineee
+            <h2 className="text-2xl font-bold">Timeline Page</h2>
+            
         </div>
     );
 };
