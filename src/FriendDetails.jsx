@@ -18,7 +18,7 @@ const FriendDetails = () => {
   return (
     <div className="max-w-3xl mx-auto p-6">
 
-      {/* Header */}
+      {/* header */}
       <div className="flex items-center gap-4">
         <img
           src={friend.picture}
@@ -34,7 +34,7 @@ const FriendDetails = () => {
         </div>
       </div>
 
-      {/* Info */}
+      {/* info */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
 
         <div className="card bg-base-200 p-4 text-center">
@@ -54,7 +54,7 @@ const FriendDetails = () => {
 
       </div>
 
-      {/* Tags */}
+      {/* tags */}
       <div className="flex gap-2 mt-6 flex-wrap">
         {friend.tags.map((tag, i) => (
           <span key={i} className="badge badge-outline">
@@ -63,13 +63,13 @@ const FriendDetails = () => {
         ))}
       </div>
 
-      {/* Bio */}
+      {/* bio */}
       <div className="mt-6">
         <h3 className="font-semibold">Relationship Note</h3>
         <p className="text-gray-600 mt-2">{friend.bio}</p>
       </div>
 
-      {/* Actions */}
+      {/* actions */}
       <div className="mt-8 flex flex-wrap gap-3">
 
         <button className="btn btn-primary">Edit</button>

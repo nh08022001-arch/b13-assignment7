@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="max-w-6xl mx-auto p-6">
 
-      {/* Hero section */}
+      {/* hero section */}
       <div className="mb-10 text-center flex flex-col items-center">
 
         <h1 className="text-3xl font-bold">
