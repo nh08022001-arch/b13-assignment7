@@ -38,7 +38,7 @@ This project helps users stay connected with the people who matter most by provi
 
 ##  Live Demo
 
-Deploy link add here.
+nahid-network.netlify.app
 
 ---
 
